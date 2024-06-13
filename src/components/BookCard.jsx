@@ -60,10 +60,6 @@ const BookCard = ({
         },
       });
       getData();
-      formik.values.title = "";
-      formik.values.isbn = "";
-      formik.values.publishDate = "";
-      formik.values.author = "";
       setEdit(false);
     },
   });
